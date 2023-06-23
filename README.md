@@ -21,5 +21,5 @@ SUGGESTION:  in a live scenario, i normally add slack pipeline incase there is a
  1. the logic is to spin up a cloudfront (CDN) in which we use the s3 bucket we created for our app as the endpoint.
  2. then create a record in aws route53 using the cloudfront (CDN) we created as alias.
 
- this should work if all credentials are correct and bucket is created with the necessary policies.
+ this config should work if all credentials are correct and bucket is created with the necessary policies.
 
